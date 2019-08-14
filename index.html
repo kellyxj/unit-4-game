@@ -11,7 +11,7 @@
         crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
-    <link rel="stylesheet" href="assets/css/reset/css">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -29,17 +29,17 @@
     </p>
     <div class="" id="goalDisplay"></div>
     <div>
-        <div id = "winCounter"></div>
-        <div id = "lossCounter"></div>
+        <div id = "winCounter">Wins: 0</div>
+        <div id = "lossCounter">Losses: 0</div>
     </div>
     <!-- 
         Images from https://www.spriters-resource.com/ds_dsi/ffccringoffates/sheet/29518/
     -->
-    <img class = "crystalSprite" src="assets/images/redcrystal.png" alt="">
-    <img class = "crystalSprite"  src="assets/images/greencrystal.png" alt="">
-    <img class = "crystalSprite"  src="assets/images/bluecrystal.png" alt="">
-    <img class = "crystalSprite"  src="assets/images/purplecrystal.png" alt="">
+    <input type = "image" class = "crystalSprite" src="assets/images/redcrystal.png" alt="" value = 0>
+    <input type = "image" class = "crystalSprite"  src="assets/images/greencrystal.png" alt="" value = 1>
+    <input type = "image" class = "crystalSprite"  src="assets/images/bluecrystal.png" alt="" value = 2>
+    <input type = "image" class = "crystalSprite"  src="assets/images/purplecrystal.png" alt="" value = 3>
     <div><p>Your total score is:</p></div>
-    <div id = "scoreDisplay"></div>
+    <div id = "scoreDisplay">0</div>
 </body>
 </html>
